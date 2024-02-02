@@ -31,7 +31,12 @@ function App() {
         aria-label="Close"
       />
     </div>
-    <div className="offcanvas-body">...</div>
+    <div className="offcanvas-body" >
+      <a href="#"><li style= {{padding: '5px', }} type='none'/> First</a>
+       <a href='#'> <li style= {{padding: '5px', }} type='none' /> Second </a>
+       <a href='#'><li style= {{padding: '5px', }} type='none'/> Third</a> 
+
+    </div>
   </div>
 </div>
 </nav>
